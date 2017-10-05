@@ -1,4 +1,4 @@
-class SourceDocs < Formula
+class Sourcedocs < Formula
   desc "Command Line Tool written in Swift that generates Markdown files from inline source code documentation"
   homepage "https://github.com/eneko/SourceDocs"
   version "0.1.0"
