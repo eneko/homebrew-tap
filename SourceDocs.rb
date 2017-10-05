@@ -14,7 +14,7 @@ class Sourcedocs < Formula
   def install
     build_path = "#{buildpath}/.build/release/sourcedocs"
     ohai "Building SourceDocs"
-    system("swift --disable-sandbox build -c release -Xswiftc -static-stdlib")
+    system("swift build --disable-sandbox -c release -Xswiftc -static-stdlib")
     bin.install build_path
   end
 end
