@@ -9,13 +9,10 @@ class Sourcedocs < Formula
   depends_on :xcode
 
   def install
+    build_path = "#{buildpath}/.build/release/sourcedocs"
+    ohai "Building SourceDocs"
+    system("swift build --disable-sandbox -c release -Xswiftc -static-stdlib")
     ohai "Installing SourceDocs..."
-    system "make", "install", "PREFIX=#{prefix}"
+    bin.install build_path
   end
-#   def install
-#     build_path = "#{buildpath}/.build/release/sourcedocs"
-#     ohai "Building SourceDocs"
-#     system("swift build --disable-sandbox -c release -Xswiftc -static-stdlib")
-#     bin.install build_path
-#   end
 end
