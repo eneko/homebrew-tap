@@ -3,7 +3,7 @@ class Sourcedocs < Formula
   homepage "https://github.com/eneko/SourceDocs"
   version "0.5.0"
   url "https://github.com/eneko/SourceDocs/archive/#{version}.tar.gz"
-  sha256 "068d5f27c4d47109ee9eefe94655fe15c769895d69f51bebf4092c19217fd59c"
+  sha256 "ceb94270327908cba218da9eb28e5873c07a273b91591b4128709995279b4f18"
   head "https://github.com/eneko/SourceDocs.git"
 
   depends_on :xcode
