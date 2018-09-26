@@ -1,9 +1,9 @@
 class Sourcedocs < Formula
   desc "Command Line Tool that generates Markdown files from inline source code documentation"
   homepage "https://github.com/eneko/SourceDocs"
-  version "0.5.0"
+  version "0.5.1"
   url "https://github.com/eneko/SourceDocs/archive/#{version}.tar.gz"
-  sha256 "ceb94270327908cba218da9eb28e5873c07a273b91591b4128709995279b4f18"
+  sha256 "d1bb2f54ab25250433f6a9c281a2afc7b5382b30cf686412f100b78078c93c27"
   head "https://github.com/eneko/SourceDocs.git"
 
   depends_on :xcode
