@@ -3,7 +3,7 @@ class Axx < Formula
   homepage "https://github.com/eneko/Axx"
   version "0.0.1"
   url "https://github.com/eneko/Axx/archive/#{version}.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "2a5e9e0cc907bf02ca2f4a5997d7d9d9ecc88931ab72e3083606d00adfcdcee7"
   head "https://github.com/eneko/Axx.git"
 
   depends_on :xcode => ["10.0"]
