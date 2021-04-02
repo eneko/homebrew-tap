@@ -10,7 +10,7 @@ class Axx < Formula
 
   def install
     build_path = "#{buildpath}/.build/release/axx"
-    system("swift build --disable-sandbox -c release -Xswiftc -static-stdlib")
+    system("swift build --disable-sandbox -c release")
     bin.install build_path
   end
 end
