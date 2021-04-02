@@ -1,9 +1,9 @@
 class Axx < Formula
   desc "Encrypt / decrypt files from the terminal"
   homepage "https://github.com/eneko/Axx"
-  version "0.0.1"
+  version "0.0.2"
   url "https://github.com/eneko/Axx/archive/#{version}.tar.gz"
-  sha256 "2a5e9e0cc907bf02ca2f4a5997d7d9d9ecc88931ab72e3083606d00adfcdcee7"
+  sha256 "6289d56e4b9ff5bcb56a78bb8175d5c00786ec19e1ea7b930395857225b19490"
   head "https://github.com/eneko/Axx.git"
 
   depends_on :xcode => ["10.0"]
